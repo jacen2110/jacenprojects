@@ -6,7 +6,8 @@ def calculate_daily_interest(principal, annual_interest_rate, days_in_year = 365
 
 # Example usage
 principal = float(input("Enter your initial loan amount: "))
-annual_interest_rate = 6.375/100
+interest_rate = float(input("Enter your interest rate: "))
+annual_interest_rate = interest_rate/100
 total_biweekly_payment = float(input("Enter your total bi-weekly payment: ")) 
 
 # Monthly escrow amount (part of bi-weekly payment but not deducted from loan)
